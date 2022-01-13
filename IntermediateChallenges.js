@@ -26,3 +26,12 @@ function chatroomStatus(users) {
     }
 }
 
+// First Factorial -- Have the function FirstFactorial(num) take the num parameter being passed and return the factorial of it
+
+function FirstFactorial(num) {
+    let factorial = 1;
+    for (let i = 1; i <= num; i++) {
+        factorial *= i;
+    }
+    return factorial;
+}
