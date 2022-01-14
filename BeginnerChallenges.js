@@ -18,10 +18,6 @@ function circuitPower(voltage, current) {
 
 // Buggy Code (Part 1) -- Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
 
-//function cubes(a) {
-// 	retunr a ** 3
-// }
-
 function cubes(a) {
     return a ** 3;
 }
@@ -69,5 +65,57 @@ function points(twoPointers, threePointers) {
 // First Reverse -- Have the function FirstReverse(str) take the str parameter being passed and return the string in reversed order
 
 function FirstReverse(str) {
+    // split the string so every character is it's own string
+    // reverse the whole array and combine the array in one string
     return str.split('').reverse().join('');
+}
+
+// Print numbers from 1 to 10
+
+function numbers () {
+    for (var i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+}
+
+
+// Print the odd numbers less than 100
+
+function oddNum () {
+    for (var i = 1; i <= 100; i += 2) {
+        console.log(i);
+    }
+}
+
+
+// Print the multiplication table with 7
+
+function sevenTable () {
+    for (var i = 1; i <= 12; i++) {
+        var table = '7 * ' + i + ' = ' + (7 * i);
+        console.log(table);
+    }
+}
+
+
+// Calculate the sum of odd numbers greater than 10 and less than 30
+
+function customOdd () {
+    var sum = 0;
+    for (var i = 11; i <= 29; i += 2) {
+        sum += i;
+    }
+    console.log(sum)
+}
+
+// Create a function that will convert from Celsius to Fahrenheit
+
+function celciusToFahren (n) {
+    return n * 1.8 + 32;
+}
+
+// Create a function that will convert from Fahrenheit to Celsius
+
+function fahrenToCelcius (n) {
+    return (n - 32) / 1.8;
 }
