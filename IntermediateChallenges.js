@@ -35,3 +35,47 @@ function FirstFactorial(num) {
     }
     return factorial;
 }
+
+// Create a function that receives an array of numbers and returns an array containing only the positive numbers
+
+function positiveNumbers (arr) {
+    var onlyPositive = [];
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            onlyPositive.push(arr[i])
+        }
+    }
+    return onlyPositive;
+}
+
+// Create a function that will return a Boolean specifying if a number is prime
+
+function isPrime (n) {
+    // prime number is a number greater than 1 that cannot be divisible by any other number other than itself.
+    if (n < 2) {
+        return false;
+    }
+    if (n === 2) {
+        return true;
+    }
+    var div = Math.sqrt(n);
+    for (var i = 2; i <= div; i++) {
+        if (n % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function hundredPrime (primes) {
+    var x = 0;
+    var i = 2;
+
+    while (x < primes) {
+        if (isPrime(i)) {
+            console.log(x + "-->" + i);
+            x++
+        }
+        i++
+    }
+}
