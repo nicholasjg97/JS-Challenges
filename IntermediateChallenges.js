@@ -79,3 +79,34 @@ function hundredPrime (primes) {
         i++
     }
 }
+
+// Calculate the sum of first 100 prime numbers
+
+function sumHundredPrime (n) {
+    var primes = 0;
+    var i = 2;
+    var sum = 0;
+    while (prime < n) {
+        if (isPrime(i)) {
+            primes++;
+            sum += i;
+        }
+        i++
+    }
+    return sum;
+}
+
+// Print the distance between the first 100 prime numbers
+function printPrimeDistances (n) {
+    var lastPrime = 2;
+    var i = lastPrime + 1;
+    var prime = 1;
+    while (prime < n) {
+        if (isPrime(i)) {
+            console.log((i - lastPrime) + "\t" + i + " - " + lastPrime);
+            prime++;
+            lastPrime = i;
+        }
+        i++
+    }
+}
