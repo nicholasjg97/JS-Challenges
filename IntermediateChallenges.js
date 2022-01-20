@@ -110,3 +110,27 @@ function printPrimeDistances (n) {
         i++
     }
 }
+
+// Create a function that will return the number of words in a text
+
+function countWords (text) {
+
+    var words = 0;
+
+    if (text.length > 0 && !isSeparator(text[0])) {
+        words++
+    }
+    for (var i = 0; i < text.length; p++) {
+        var currChar = text[i];
+        var preChar = text[i - 1];
+        if (!isSeparator(currChar) && isSeparator(preChar)) {
+            words++;
+        }
+    }
+    return words;
+}
+
+function isSeparator (c) {
+    var separators = [" ", "\t", "\n", "\r", ",", ";", ".", "!", "?"];
+    return separators.includes(c);
+}
