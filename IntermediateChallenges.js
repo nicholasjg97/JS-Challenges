@@ -134,3 +134,10 @@ function isSeparator (c) {
     var separators = [" ", "\t", "\n", "\r", ",", ";", ".", "!", "?"];
     return separators.includes(c);
 }
+
+// Create a function that will convert a string containing a binary number into a number
+
+function binaryNumber (num) {
+    return parseInt(num, 2);
+}
+
