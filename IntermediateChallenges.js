@@ -141,3 +141,14 @@ function binaryNumber (num) {
     return parseInt(num, 2);
 }
 
+// Print "Hello, world" with a delay of 3 seconds
+
+setTimeout(function () {
+    console.log('Hello, world');
+}, 3000)
+
+// Write a function which can concatenate 2 arrays. If only one array is passed it will duplicate it
+
+function arrMerge (arr1, arr2 = arr1) {
+    return [...arr1, ...arr2];
+}
