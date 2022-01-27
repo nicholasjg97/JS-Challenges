@@ -152,3 +152,16 @@ setTimeout(function () {
 function arrMerge (arr1, arr2 = arr1) {
     return [...arr1, ...arr2];
 }
+
+// Sort the given array of integers in ascending or descending order
+// sort method sorts the elements of an array in place and returns the sorted array
+// It receives a function as an argument, which is used for comparision
+
+arr.sort((a, b)=> a - b) // ascending
+arr.sort((a, b)=> b - a) // descending
+
+// Write the code to remove the duplicates from the array
+// Set is a data structure which does not allow duplicate elements
+
+const set = new Set(...arr);
+const newArr = [...set];
