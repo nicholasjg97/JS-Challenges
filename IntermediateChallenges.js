@@ -165,3 +165,17 @@ arr.sort((a, b)=> b - a) // descending
 
 const set = new Set(...arr);
 const newArr = [...set];
+
+// Extract the list of all the elements from the list of numbers given in 2 arrays
+
+const arrOne = new Set(...arr1);
+const arrTwo = new Set(...arr2);
+const newArr = [...arrOne, ...arrTwo];
+
+// Show the different ways of creating an array
+
+const arr = []; // literal form
+const arr2 = new Array(); // constructor form
+const arr3 = new Array(10); // pre defined slots
+const arr4 = [1, true, "string"]; // with values
+const arr5 = new Array(1, true, "string"); // constructor with values
