@@ -179,3 +179,25 @@ const arr2 = new Array(); // constructor form
 const arr3 = new Array(10); // pre defined slots
 const arr4 = [1, true, "string"]; // with values
 const arr5 = new Array(1, true, "string"); // constructor with values
+
+// Show the different ways of emptying an array which has values
+
+arr20 = [];
+arr20.length = 0;
+while (arr20.length > 0) {
+    arr20.pop();
+}
+arr20.splice(0, arr20.length);
+
+// Check if given input is an array or not
+
+Array.isArray(arr);
+
+// Write a program to store values in to a set
+
+const setEx = new Set();
+set.add(5);
+set.add(false);
+set.add("some text");
+
+const setEx2 = new Set([3, 6, 9]);
