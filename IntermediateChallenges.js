@@ -201,3 +201,20 @@ set.add(false);
 set.add("some text");
 
 const setEx2 = new Set([3, 6, 9]);
+
+// Write a function which returns another function and execute it after calling
+
+function callingFunction () {
+    function functionCalled () {
+        console.log("function is being called by higher order function")
+    }
+    return functionCalled();
+}
+
+// Write a function which executes another function recieved as an argument
+
+function functionExecuting (func) {
+    if (typeof func === "function") {
+        func();
+    }
+}
