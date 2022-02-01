@@ -218,3 +218,25 @@ function functionExecuting (func) {
         func();
     }
 }
+
+// Create a function having no parameters declared and print all the arguments passed to it
+
+function noParam () {
+    for (let value of arguments) {
+        console.log(value)
+    }
+}
+
+// Show the most common ways of creating functions in JavaScript
+
+function funcName (params) { // regular function statement
+    // code
+}
+
+const funcName2 = function (params) { // regular function expression
+    // code
+}
+
+const funcName3 = (params) => { // arrow function expression
+    // code
+}
