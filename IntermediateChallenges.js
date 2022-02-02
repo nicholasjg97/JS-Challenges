@@ -240,3 +240,28 @@ const funcName2 = function (params) { // regular function expression
 const funcName3 = (params) => { // arrow function expression
     // code
 }
+
+// Code an Immediately Invoked Function Expression (IIFE) and show the different ways of executing it
+
+(function IIFE () {
+    console.log("I am an immediately invoked function");
+})();
+
+(function IIFE () {
+    console.log("I am an immediately invoked function");
+}());
+
+// Show the different ways of creating an object
+// look on the internet for this one
+
+const object1 = Object.create({ key: value});
+
+const object2 = {
+    key: value
+}
+
+function getObject (key, value) {
+    this[key] = value;
+}
+const object3 = new getObject('key', 'value');
+
