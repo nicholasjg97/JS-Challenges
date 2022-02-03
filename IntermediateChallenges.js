@@ -265,3 +265,13 @@ function getObject (key, value) {
 }
 const object3 = new getObject('key', 'value');
 
+// Write a function which returns true if given value of number is an integer without using any inbuilt functions
+
+function isInt (int) {
+    return value % 1 === 0;
+}
+
+// Write a program to reverse a string
+
+const str = "a string to type";
+str.split("").reverse().join("");
