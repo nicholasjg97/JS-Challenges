@@ -275,3 +275,14 @@ function isInt (int) {
 
 const str = "a string to type";
 str.split("").reverse().join("");
+
+// Write a program to reverse a string by words. Also show the reverse of each words in place
+
+const str1 = "another simple string to type";
+str.split(" ").reverse().join(" ");
+
+// Write a program to reverse a given integer number
+
+let num1 = 2019;
+let numStr = String(num1);
+numStr.split("").reverse().join("");
