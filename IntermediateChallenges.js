@@ -286,3 +286,20 @@ str.split(" ").reverse().join(" ");
 let num1 = 2019;
 let numStr = String(num1);
 numStr.split("").reverse().join("");
+
+// Write a code to replace all the spaces of the string with underscores
+
+str.split(" ").join("_");
+// str.replaceAll(" ", "_");
+
+// Show the conversion from number to string and vice versa
+
+const num3 = 12;
+// String(num3);
+// num3.toString();
+// num3 + "";
+
+const str3 = "12";
+// NUmber(str3);
+// +str3;
+// parseInt(str3);
