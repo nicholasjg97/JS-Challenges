@@ -318,3 +318,7 @@ Number.parseFloat('-68.32x');
 Number.isNaN(NaN);
 Number.isNaN("text" - 25);
 Number.isNaN("text");
+
+// Number.toFixed?
+
+// Number.toPrecision?
