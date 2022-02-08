@@ -303,3 +303,18 @@ const str3 = "12";
 // NUmber(str3);
 // +str3;
 // parseInt(str3);
+
+// Show the frequently and commonly used methods available on Number object with coding examples
+
+Number.isInteger(4.2);
+Number.isInteger(-18);
+
+Number.parseInt('9.1');
+Number.parseInt('439x');
+
+Number.parseFloat('10.456');
+Number.parseFloat('-68.32x');
+
+Number.isNaN(NaN);
+Number.isNaN("text" - 25);
+Number.isNaN("text");
