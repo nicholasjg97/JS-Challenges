@@ -322,3 +322,24 @@ Number.isNaN("text");
 // Number.toFixed?
 
 // Number.toPrecision?
+
+// Show the frequently and commonly used methods available on Math object with coding examples
+// Look on the internet for this one!
+
+Math.abs(-8);
+
+Math.floor(9.5);
+
+Math.ceil(4.4);
+
+Math.round(7.5);
+
+Math.max(-9, 6, 3);
+
+Math.min(-7, -8, 3);
+
+Math.sqrt(81);
+
+Math.pow(8, 4);
+
+Math.trunc(-5.8);
