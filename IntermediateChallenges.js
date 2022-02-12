@@ -343,3 +343,19 @@ Math.sqrt(81);
 Math.pow(8, 4);
 
 Math.trunc(-5.8);
+
+// Write a code to iterate over a string
+
+for (let i = 0; i < str.length; i++){
+    console.log(str.charAt(i));
+}
+
+// other answers off the internet?
+
+// for(let index in str){
+//     console.log(str[index]);
+// }
+// for(let value of str){
+//     console.log(value);
+// }
+// [...str].forEach((value) => console.log(value));
