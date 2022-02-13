@@ -359,3 +359,20 @@ for (let i = 0; i < str.length; i++){
 //     console.log(value);
 // }
 // [...str].forEach((value) => console.log(value));
+
+// Show the usage of template literals with expression interpolation and tagged templates
+
+// 'Tagged templates'
+let person = 'Nico';
+let height = [5, 6];
+
+// got this off the internet but plugged in my examples
+function myTag(strings, person, height) {
+    let communities = ['North', 'South', 'East', 'West']
+
+    let first = strings[0]; // "Note:"
+    let second = strings[1]; // "is a member of following communities:"
+
+    let communityOfRandom = height.map(index => communities[index])
+    return `${str0}${person}${str1}${communityOfRandom}`;
+}
