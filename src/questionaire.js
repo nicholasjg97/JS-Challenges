@@ -23,3 +23,20 @@
 // if (anything === 1) {
 //   anything = 2;
 // }
+
+// Time goal: 15 seconds
+// What are the 4 bracket characters in every if statement, in order?
+// (){}
+
+// Time goal: 35 seconds
+// Code the first line of an if statement that tests whether one variable has the same value as another
+// if (a === b) {
+
+// What keyword specifies an action when all tests above have failed?
+// else
+
+// What are the keywords that test for a condition when all tests above it have failed?
+// else if
+
+// In one word, what type of statement is formatted the same way else and else if?
+// if
