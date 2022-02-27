@@ -40,3 +40,16 @@
 
 // In one word, what type of statement is formatted the same way else and else if?
 // if
+
+// In one word, what is a block of code that executes whenever you invoke its name?
+// function
+
+// Any name that is legal for a _________ is legal for a function.
+// variable
+
+// Write a function call that uses just 4 characters. Name it anything you like, within the limitation that the whole statement is just 4 characters.
+// f();
+
+// This is the first line of the function code. Write the statement that calls it
+// function doSomething()
+// doSomething();
